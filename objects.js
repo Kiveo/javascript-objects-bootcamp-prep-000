@@ -1,8 +1,8 @@
-var playlist = {singerA: "Song A"} ;
+var playlist = {singerA: "Song A"}
 
 function updatePlaylist(playlist, artistName, songTitle) {
   // return playlist.songTitle = artistName;
   var placeholder = songTitle;
   playlist[placeholder] = artistName;
-  return playlist.[placeholder];
+  return playlist.placeholder;
 }
