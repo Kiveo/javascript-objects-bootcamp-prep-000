@@ -1,1 +1,1 @@
-let playlist = new Object();
+var playlist = new Object();
